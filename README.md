@@ -1,4 +1,4 @@
-Haskell bindings for <https://vk.com/dev VKontakte> API
+Haskell bindings for [VKontakte](https://vk.com/dev)
 
 Currently authentication, users, audio and video parts are fully implemented.
 
