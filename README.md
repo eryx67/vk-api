@@ -23,6 +23,7 @@ appScope = [Audio, Video]
 
 vksettings :: VKSettings
 vksettings = createSettings appId userName userPass (Just appScope)
+
 execVKAPI appState vksettings $ do
 uid <- liftState $ gets getUserId
 -- get first 10 from my own audio records
