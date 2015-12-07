@@ -9,6 +9,12 @@ Code can be used in both, GHC and GHCJS.
 # Usage
 
 ```haskell
+-- Prepare our own state for application
+data AppState = AppState [T.Text]
+
+appState :: AppState
+appState = AppState []
+
 userName :: T.Text
 userName = "myname@gmail.com"
 
